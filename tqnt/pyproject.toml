@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "tan-quant"
+version = "0.1.0"
+description = ""
+authors = ["Msule <richardmsule72@gmail.com>"]
+readme = "README.md"
+packages = [{include = "Arima_financial_forecasting"}]
+
+[tool.poetry.dependencies]
+python = "<3.12,>=3.10"
+yfinance = "^0.2.18"
+scikit-learn = "*"
+matplotlib = "^3.7.1"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+ipykernel = "^6.23.0"
+statsmodels = "^0.14.0"
+imgcat = {git = "https://github.com/stalbrec/python-imgcat.git", rev = "fix_FigureCanvas"}
+more-itertools = "^9.1.0"
+pmdarima = "^2.0.3"
+ta = "^0.10.2"
+seaborn = "^0.12.2"
+scipy = "^1.10.1"
+featexp = "^0.0.7"
+backtrader = "^1.9.78.123"
+
+[tool.pyright]
+include = ["src", "tqnt", "."]
+venvPath = "/Users/Richard-Msule/Library/Caches/pypoetry/virtualenvs/"
+venv = "Arima_financial_forecasting-py3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
