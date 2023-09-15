@@ -1,3 +1,5 @@
+import sys
+sys.path.append('/workspaces/Arima_financial_forecasting')
 import streamlit as st
 import numpy as np
 import pandas as pd
