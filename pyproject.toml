@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "tan-quant"
+name = "Arima_financial_forecasting"
 version = "0.1.0"
 description = ""
 authors = ["Msule <richardmsule72@gmail.com>"]
