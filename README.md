@@ -26,7 +26,7 @@ pip install pandas numpy matplotlib statsmodels pmdarima
 Alternatively, you can use the `pyproject.toml` file provided in the repository:
 
 ```bash
-pip install poetry #then
+Set up Poetry as a Package Manager, So to use First pip install poetry #then
  poetry install #in your project directory to install the dependencies specified in your pyproject.toml file.
 ```
 
